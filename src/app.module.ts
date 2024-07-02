@@ -18,7 +18,7 @@ import { UserModule } from './user/user.module';
       username: 'postgres',
       password: 'postgres',
       database: 'almari',
-      synchronize: false,
+      synchronize: true,
       autoLoadEntities: true,
     }),
 
